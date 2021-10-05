@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "checkJs": true,
+    "declaration": true,
+    "module": "esnext",
+    "noEmit": true
+  },
+  "exclude": ["node_modules", "**/nodem_modules/**/*"]
+}
