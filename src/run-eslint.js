@@ -5,7 +5,9 @@ const chalk = require('chalk');
 
 const CLI = require('eslint').CLIEngine;
 
-const cli = new CLI({});
+const cli = new CLI({
+  fix: false, // difference from last example
+});
 
 function runLint(dir, format) {
   const formatter = cli.getFormatter(format);
